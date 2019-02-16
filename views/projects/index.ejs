@@ -1,22 +1,24 @@
-<% include ./partials/header.ejs %>
+<% include ../partials/header.ejs %>
 
   <!-- Content goes here --> 
 
   <div class="container">
     <div class="jumbotron">
       <h1 class="display-4"><%= title %></h1>
-      <% if(title == "Services") { %>
+      <% if(title == "Projects") { %>
        <table class="table">
             <thead class="thead-dark">
               <tr>
-                <th scope="col">Technical Skills</th>
-                <th scope="col">Service</th>
+                <th scope="col">Project Name</th>
+                <th scope="col">Discription</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-              <th scope="row">Operating System</th>
-                <td>Windows,Linux,Unix</td>
+              <th scope="row">Software Project Development</th>
+                <td>Application developer can keep track of every upcomming and released events
+                    Project Manager can add and delete task 
+                    Developer can </td>
                 </tr>
                 <tr>
                 <th scope="row">Database</th>
@@ -34,4 +36,4 @@
       <% } %>
       
 
-<% include ./partials/footer.ejs %>
+<% include ../partials/footer.ejs %>

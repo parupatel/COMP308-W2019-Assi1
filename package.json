@@ -20,7 +20,7 @@
   },
   "description": "MongoDB Demo",
   "main": "server.js",
-  "author": "Tom Tsiliopoulos",
+  "author": "Paru Patel",
   "license": "ISC",
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CentennialCollege/COMP308-W2019-Lesson5A.git"
+    "url": "git+https://github.com/parupatel/COMP308-W2019-Assi1.git"
   },
   "bugs": {
-    "url": "https://github.com/CentennialCollege/COMP308-W2019-Lesson5A/issues"
+    "url": "https://github.com/parupatel/COMP308-W2019-Assi1/issues"
   },
-  "homepage": "https://github.com/CentennialCollege/COMP308-W2019-Lesson5A#readme"
+  "homepage": "https://github.com/parupatel/COMP308-W2019-Assi1#readme"
 }
