@@ -7,7 +7,7 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/about', (req, res, next) => {
-  res.render('index', { title: 'About Me' });
+  res.render('../views/about/index', { title: 'About Me' });
 });
 
 router.get('/projects', (req, res, next) => {

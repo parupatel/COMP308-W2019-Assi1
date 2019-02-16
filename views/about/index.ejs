@@ -1,0 +1,26 @@
+<% include ../partials/header.ejs %>
+<div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4"><%= title %></h1>
+      <% if(title == "About Me") { %>
+      <div class="container">
+  <div class="row">
+    <div class="col">
+     <a><img src="/image/parupatel.jpg"height="400" width="400"></a>
+    </div>
+    <div class="col">
+      <i> My name is Paru Girishbhai Patel 
+        I am graduating from Centennial College, with a diploma in Software Engineering Fast-track. 
+        I am also certified in Bachelor of Computer degree.<br><br>
+
+        During my academic studies at Centennial college, I learned many technical subject such as Asp.net, computer networking, Database Configuration,
+        Cloud Computing,  Advance Java, Data structure and Algorithm, Software security.   
+        I have developed key technical skills in the area of Software Testing. 
+        My soft interpersonal skills include Adaptability, Confidant, Team worker, Problem Solver, 
+        Self motivated, Decision maker, Initiative, Critical thinker, Communication skills .
+         My key interpersonal skills are Team worker, Problem Solver, Self motivator.  </i></div>
+  </div>
+      <% } %>
+      
+
+<% include ../partials/footer.ejs %>
