@@ -24,4 +24,8 @@ router.get('/contact', (req, res, next) => {
   res.render('../views/contact/index', { title: 'Contact Me' });
 });
 
+router.get('/fillform', function(req, res, next) {
+  res.render('../views/contact/add', { title: 'Fill your detail here' });
+});
+
 module.exports = router;
