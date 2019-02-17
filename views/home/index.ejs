@@ -1,0 +1,23 @@
+<% include ../partials/header.ejs %>
+<div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4"><%= title %></h1>
+      <% if(title == "Home") { %>
+           
+     
+   <div class="container">
+  <div class="row">
+    <div class="col">
+       <a class="btn btn-primary" href="/about" role="button">About Me</a>
+    </div>
+    <div class="col">
+    <i><b> I am desining my first Node.js website </b></i>
+      
+    </div>
+  </div>     
+      <% } %>
+        
+      </div>
+      </div>
+
+<% include ../partials/footer.ejs %>
